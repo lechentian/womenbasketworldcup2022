@@ -13,6 +13,9 @@
 ![top 10 player by Efficiency](chart/top10playerByEfficiency.svg)
 
 ### 3.2 Player Compare 
+Top 5 China Player Compare
+![player top5 China player](chart/playerBenchmarkCHNTop5.svg)
+
 Han vs Li
 ![player Han vs LI](chart/playerBenchmarkHanVsLi.svg)
 
