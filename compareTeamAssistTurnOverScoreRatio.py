@@ -58,8 +58,8 @@ print(bihDf["OfficialName"].tolist())
 
 xy_chart = pygal.XY(stroke=False)
 xy_chart.title = 'Assist Turnover Ratio vs Points Per Game'
-xy_chart.add('USA', usaList)
-xy_chart.add('China', chnList)
-xy_chart.add('JPN', jpnList)
-xy_chart.add('BIH', bihList)
+xy_chart.add('USA, Rank : 1', usaList)
+xy_chart.add('China, Rank : 2', chnList)
+xy_chart.add('JPN, Rank: 9', jpnList)
+xy_chart.add('BIH, Rank: 12', bihList)
 xy_chart.render_to_file("chart/teamAssistTurnOverScoreRatio.svg")
