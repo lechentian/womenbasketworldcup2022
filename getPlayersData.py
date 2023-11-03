@@ -9,4 +9,4 @@ json_data = r.json()
 with open('women_basket_world_cup_2022_all_players.json', 'w', encoding='utf-8') as f:
     json.dump(json_data, f, ensure_ascii=False, indent=4)
 
-print('save all player data data to women_basket_world_cup_2022_all_players.json')
+print('save all player datassss to women_basket_world_cup_2022_all_players.json')
