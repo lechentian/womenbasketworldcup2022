@@ -6,7 +6,10 @@
   
 
 ## 2 preprocessing data
-
+   download file is json file, to use pandas library, we need convert json file to csv.\
+   we need the following change for convert data.\
+   1 add new column as Team.\
+   2 add new column 'ReboundsTotal',get value from DefensiveReboundsTotal and OffensiveReboundsTotal
 
 ## 3 Player data analysis
 ### 3.1 top 10 player by efficiency 
