@@ -5,6 +5,8 @@
   python script : getPlayersData.py save output as 'women_basket_world_cup_2022_all_players.json'  
   
 
+aaaaaaaaaa
+
 ## 2 preprocessing data
    download file is json file, to use pandas library, we need convert json file to csv.\
    we need the following change for convert data.\
