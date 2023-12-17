@@ -11,21 +11,21 @@
 import json
 with open('women_basket_world_cup_2022_all_players.json') as json_file:
     data = json.load(json_file)
-#playercount = 0
-#timecount = 0
+playercount = 0
+timecount = 0
 low_est = 1000000
 
 for dat in data:
-    print('-------')
+    #print('-------')
     #print(type(dat))
     #print(dat['MinutesTotal'])
-    # playercount = playercount + 1
-    # timecount = timecount + dat['MinutesTotal']
+    playercount = playercount + 1
+    timecount = timecount + dat['MinutesTotal']
     if dat['MinutesTotal'] < low_est:
         low_est = dat['MinutesTotal']
 print(low_est)
 
-# print(timecount / playercount)
+print(timecount / playercount)
 #print(playercount)
 
 
