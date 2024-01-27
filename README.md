@@ -25,10 +25,38 @@ the total points her got was not the highest. This further reflects that efficie
 
 ### 3.2 Player Compare 
 Top 5 China Player Compare
-![player top5 China player](chart/playerBenchmarkCHNTop5.svg)
+This radar graph presents the datas of five players, Xu Han, Yueru Li, Sijing Huang, Liwei Yang, and Siyu Wang, from China.
+The data includes points, steals, turnovers, rebounds, freethrows,and assists because these are the most essential 
+criterion to judge whether the player is efficient on the court. 
 
-Han vs Li
-![player Han vs LI](chart/playerBenchmarkHanVsLi.svg)
+![player top5 China player](chart/chinaPlayerBenchmarkTop5-no-stand.svg)
+
+When I first created the graph by showing all the real and original data, the graph is inconvenient to observe 
+because the range for different data is different. To solve this problem, I used sklearn.preprocessing imported from
+MinMaxScaler to standardize all the data so that the range of the data would all be one, which is more convenient for us
+to make conclusions.
+
+![player top5 China player](chart/chinaPlayerBenchmarkTop5.svg)
+
+By looking at this graph, we can find out who has the advantage in all of these areas: \
+Xu Han got the most points, rebounds, and freethrows. However, she got the least assists, steals, and turnovers, which are
+the areas that Han should improve on.\
+Sijing Huang got the most steals and least steals and points within these five players. Huang should improve the strategies 
+about how to get more points in a game.\
+Yueru Li got the most turnovers and her ranking of rebounds is second, which is also her advantage. Yet, her steals,
+assists, and freethrows are all medium in team China.\
+Siyu Wang got the most assists and ranked second in turnovers. Nevertheless, Wang's steals, rebounds, and freethrows
+are at medium in team China, and she can improve on these aspects.\
+Liwei Yang's advantage is in assistance. She is ranking number two in assists. Yang can create opportunities for her
+teammates to get points, which is also the basis of winning a game. As the captain of team China, Yang doesn't necessarily
+need to be the top of the team, instead, she provides mental support for the team.
+
+In conclusion, since the points and rebounds are the most important part of a game, Xu Han is definitely the most 
+valuable and excellent player from China.
+
+
+
+
 
 Han vs Wilson
 ![player Han vs Wilson](chart/playerBenchmarkHanVsWilson.svg)

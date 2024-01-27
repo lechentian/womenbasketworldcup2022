@@ -21,10 +21,8 @@ topEfficiencyPlayerDf[["PointsTotal", "AssistsTotal", "FreeThrowsMadeTotal","Reb
 
 #abc = topEfficiencyPlayerDf[topEfficiencyPlayerDf['PlayerId'] == 224131]
 firstPlayerList = topEfficiencyPlayerDf[(topEfficiencyPlayerDf['PlayerId'] == 224131)].iloc[0].tolist()
-secondPlayerList = topEfficiencyPlayerDf[(topEfficiencyPlayerDf['PlayerId'] ==218464 )].iloc[0].tolist()
-thirdPlayerList = topEfficiencyPlayerDf[(topEfficiencyPlayerDf['PlayerId'] == 203409)].iloc[0].tolist()
-fourPlayerList = topEfficiencyPlayerDf[(topEfficiencyPlayerDf['PlayerId'] == 258186)].iloc[0].tolist()
-fivePlayerList = topEfficiencyPlayerDf[(topEfficiencyPlayerDf['PlayerId'] == 181482)].iloc[0].tolist()
+secondPlayerList = topEfficiencyPlayerDf[(topEfficiencyPlayerDf['PlayerId'] ==202993 )].iloc[0].tolist()
+
 print(firstPlayerList)
 print(secondPlayerList)
 
@@ -35,7 +33,4 @@ radar_chart.title = 'Player benchmark results'
 radar_chart.x_labels = ['Points', 'Assists', 'FreeThrows', 'Rebounds', 'TurnOvers', 'Steals']
 radar_chart.add(firstPlayerList[2], firstPlayerList[3:])
 radar_chart.add(secondPlayerList[2], secondPlayerList[3:])
-radar_chart.add(thirdPlayerList[2], thirdPlayerList[3:])
-radar_chart.add(fourPlayerList[2], fourPlayerList[3:])
-radar_chart.add(fivePlayerList[2], fivePlayerList[3:])
-radar_chart.render_to_file("chart/chinaPlayerBenchmarkTop5.svg")
+radar_chart.render_to_file("chart/playerBenchmarkHanVsWilson.svg")
