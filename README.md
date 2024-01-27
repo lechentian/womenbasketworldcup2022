@@ -11,6 +11,8 @@
    1 add new column as Team.\
    2 add new column 'ReboundsTotal',get value from DefensiveReboundsTotal and OffensiveReboundsTotal
 
+Process by preProcessingPlayerData.py
+
 ## 3 Player data analysis
 ### 3.1 Top 10 players by efficiency 
 ![top 10 player by Efficiency](chart/top10playerByEfficiency.svg)
