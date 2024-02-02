@@ -1,17 +1,17 @@
 # Women Basket World Cup 2022 - All Players Data Analysis
 
 ## 1 Get and save all players data to local
-   get data from FIBA Women Basket World Cup 2022, save output as 'women_basket_world_cup_2022_all_players.json'  
+   get data from FIBA website -- Women Basket World Cup 2022, save output as 'women_basket_world_cup_2022_all_players.json'  
    https://www.fiba.basketball/womensbasketballworldcup/2022/playerstats
    
   Process by getPlayersData.py
 
 
 ## 2 Preprocessing data
-   download file is json file, to use pandas library, we need convert json file to csv.\
+   download file is json, to use pandas library, we need convert json file to csv.\
    we need the following change for convert data.\
    1 add new column as Team.\
-   2 add new column 'ReboundsTotal',get value from DefensiveReboundsTotal and OffensiveReboundsTotal
+   2 add new column 'ReboundsTotal', get value from DefensiveReboundsTotal and OffensiveReboundsTotal
 
 Process by preProcessingPlayerData.py
 
